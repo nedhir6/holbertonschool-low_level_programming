@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+ * main - void
+ * Return: 0
+ */
 int main(void)
 {
 printf("Size of a char: %ld byte(s)\n", sizeof(char));
