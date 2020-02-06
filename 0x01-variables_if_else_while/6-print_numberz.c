@@ -4,9 +4,8 @@
 *Return: 0
 */
 int main(void)
-{char ch1 = 'a';
-char ch2 = '\n';
-for (ch1 = '0' ; ch1 <= '9' ; ch1++)
-{putchar(ch1); }
-putchar(ch2);
+{int n = 0;
+for (n = '0' ; n <= '9' ; n++)
+{putchar(n); }
+putchar('\n');
 return (0); }
