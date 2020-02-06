@@ -4,7 +4,7 @@
 *Return: 0
 */
 int main(void)
-{char ch1;
+{char ch1 = 'a';
 char ch2 = '\n';
 for (ch1 = 'a' ; ch1 <= 'z' ; ch1++)
 {putchar(ch1); }
