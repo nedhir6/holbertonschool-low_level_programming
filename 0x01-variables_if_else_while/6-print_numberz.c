@@ -4,7 +4,9 @@
 *Return: 0
 */
 int main(void)
-{int i = 0;
-for (i = 0; i < 10; i++)
-printf("%d\n", i);
+{char ch1 = 'a';
+char ch2 = '\n';
+for (ch1 = '0' ; ch1 <= '9' ; ch1++)
+{putchar(ch1); }
+putchar(ch2);
 return (0); }
