@@ -9,7 +9,7 @@ int d1 = 0;
 int d2 = 0;
 for (d1 = 0 ; d1 < 24 ; d1++)
 {
-for i(d2 = 0 + 1; d2 < 60 ; d2++)
+for (d2 = 0 + 1; d2 < 60 ; d2++)
 {_putchar(d1 / 10 + '0');
 _putchar(d1 % 10 + '0');
 _putchar(':');
