@@ -10,7 +10,7 @@ long int t1 = 1;
 long int t2 = 2;
 printf("%ld, ", t1);
 printf("%ld, ", t2);
-for (i = 1; i <= 50; i++)
+for (i = 1; i <= 45; i++)
 {
 printf("%ld, ", t1 + t2);
 t2 = t1 + t2;
