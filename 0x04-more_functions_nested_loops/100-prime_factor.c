@@ -12,7 +12,7 @@ while (a * a < n)
 {
 while (n % a == 0)
 n = n / a;
-i = a + 1;
+a = a + 1;
 }
 printf("%ld\n", n);
 return (0);
