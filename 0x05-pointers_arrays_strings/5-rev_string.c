@@ -13,7 +13,7 @@ for (a = 0; s[a]; a++)
 for (b = 0; b < a / 2; b++)
 {
 ch1 = s[b];
-s[b]=s[a - b -1];
-s[a - b -1] = ch1;
+s[b] = s[a - b - 1];
+s[a - b - 1] = ch1;
 }
 }
