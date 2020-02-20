@@ -1,3 +1,9 @@
+#include "holberton.h"
+/**
+*leet - 1337
+*@s: pointer
+*Return: s
+*/
 char *leet(char *s)
 {
 int i = 0, j;
