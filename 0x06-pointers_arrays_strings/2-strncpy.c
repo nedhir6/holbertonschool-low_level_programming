@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-*_strncpy - copies the first num characters 
+*_strncpy - copies the first num characters
 *@dest: pointer to char
 *@src: pointer to char
 *@n: int
