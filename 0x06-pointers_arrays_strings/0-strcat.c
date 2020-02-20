@@ -1,19 +1,19 @@
 #include "holberton.h"
 /**
-*_strca - concatenates two strings
+*_strcat - concatenates two strings
 *@dest: pointer to char
 *@src: pointer to char
+*Return: dest
 */
 char *_strcat(char *dest, char *src)
 {
-int a = 0;
-int b = 0;
-while (*(dest + a))
-a++;
-while ((*(dest + a) = *(src + a)))
+while (*dest != '\0')
+dest++;
+while (*src != '\0')
 {
-b++;
-b++;
+*dest = *src;
+dest++;
+src++;
 }
 return (dest);
 }
