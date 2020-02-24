@@ -1,5 +1,5 @@
 /**
- * _strspn - gets the length of a prefix substring. 
+ * _strspn - gets the length of a prefix substring.
  * @s: char
  * @accept: char
  * Return: n
