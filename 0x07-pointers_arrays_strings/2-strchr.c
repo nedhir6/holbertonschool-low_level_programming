@@ -6,7 +6,7 @@
  */
 char *_strchr(char *s, char c)
 {
-int i = 0;
+int i;
 	for (i = 0; s[i] != c; i++)
 	{}
 	return (&s[i]);
