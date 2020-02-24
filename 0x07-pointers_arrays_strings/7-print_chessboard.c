@@ -1,4 +1,3 @@
-#include "holberton.h"
 /**
  * print_chessboard - E4
  * @a: pointer
