@@ -1,3 +1,4 @@
-char *_strcpy(char *dest, char *src)
+#include "holberton.h"
+char *_strchr(char *s, char c)
 {
-}
+return 0;}
