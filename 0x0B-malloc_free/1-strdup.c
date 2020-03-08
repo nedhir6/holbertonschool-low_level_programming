@@ -10,6 +10,7 @@ int _strlen(char *s)
 int i = 0;
 for (i = 0; s[i] != '\0'; i++)
 {}
+i++;
 return  (i);
 }
 
@@ -29,10 +30,10 @@ char *_strdup(char *str)
 	int i = 0;
 	int len = 0;
 
-	len = _strlen(str);
 	if (str == NULL)
 		return (NULL);
-	p = malloc(sizeof(char) * (len - 1));
+	len = _strlen(str);
+	p = malloc(sizeof(char) * len);
 	if (p == NULL)
 		return (NULL);
 	for (i = 0; i <= len; i++)
