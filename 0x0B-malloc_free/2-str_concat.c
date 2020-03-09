@@ -34,15 +34,15 @@ char *str_concat(char *s1, char *s2)
 	int j = 0;
 	int len3 = 0;
 
-	if ((s1 == NULL) || (s2 == NULL))
-	{
-		p = NULL;
-		return (p);
-	}
 	len1 = _strlen(s1);
 	len2 = _strlen(s2);
 	len3 = len1 + len2 + 1;
 	p = malloc(sizeof(char) * ((len1 - 1) + (len2 - 1)));
+	if ((s1 == NULL) || (s2 == NULL))
+	{
+		p = "";
+		return (p);
+	}
 	if (p == NULL)
 		return (NULL);
 	for (i = 0; i < (len1 - 1); i++)
