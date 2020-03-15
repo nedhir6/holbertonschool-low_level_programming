@@ -24,8 +24,9 @@ int (*get_op_func(char *s))(int, int)
 		if (*s == *ops[i].op && strlen(s) == 1)
 		{
 			return (ops[i].f);
-			i++;
+
 		}
+		i++;
 	}
 	printf("Error\n");
 	exit(99);
