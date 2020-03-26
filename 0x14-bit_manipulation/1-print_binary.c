@@ -10,6 +10,7 @@ void print_binary(unsigned long int n)
 	unsigned long int biggest;
 
 	biggest = 4611686018427387904;
+	biggest <<= 1;
 	while (biggest > 0)
 	{
 		if ((n & biggest) == biggest)
