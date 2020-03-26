@@ -16,7 +16,7 @@ void print_binary(unsigned long int n)
 			_putchar('1');
 			first_1 = 1;
 		}
-		else if (first_1 == 1)
+		else if (first_1 == 1 || biggest == 1)
 			_putchar('0');
 		biggest >>= 1;
 	}
