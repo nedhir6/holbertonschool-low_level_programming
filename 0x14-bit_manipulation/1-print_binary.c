@@ -11,7 +11,7 @@ void print_binary(unsigned long int n)
 
 	while (biggest > 0)
 	{
-		if ((biggest & n) == biggest)
+		if ((n & biggest) == biggest)
 		{
 			_putchar('1');
 			first_1 = 1;
