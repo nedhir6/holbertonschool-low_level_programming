@@ -7,8 +7,9 @@
 void print_binary(unsigned long int n)
 {
 	int first_1 = 0;
-	unsigned long int biggest = 32768;
+	unsigned long int biggest;
 
+	biggest = 4611686018427387904;
 	while (biggest > 0)
 	{
 		if ((n & biggest) == biggest)
