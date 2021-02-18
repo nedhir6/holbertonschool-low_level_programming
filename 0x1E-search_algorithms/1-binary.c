@@ -10,7 +10,7 @@
 void print_arr(int *array, size_t a, size_t b)
 {
 unsigned int i;
-printf("searching in array: ");
+printf("Searching in array: ");
 for (i = a; i < b; i++)
 printf("%i, ", array[i]);
 printf("%i\n", array[i]);
